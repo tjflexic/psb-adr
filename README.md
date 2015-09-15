@@ -5,10 +5,10 @@ This is the source code of my submission for the PSB 2016 social media mining sh
 
 The system is a weighted average ensemble of four classifiers: 
 
-(1) a concept-matching classifier based on ADR lexicon (see src/concept_matching.py)
-(2) a maximum entropy (ME) classifier with n-gram features and TFIDF weighting scheme (see src/maxent_tfidf.py)
-(3) a ME classifier based on n-grams using naive Bayes (NB) log-count ratios as feature values (see src/maxent_nblcr.py)
-(4) a ME classifier with word embedding features (see src/maxent_we.py)
+<p>(1) a concept-matching classifier based on ADR lexicon (see src/concept_matching.py)</p>
+<p>(2) a maximum entropy (ME) classifier with n-gram features and TFIDF weighting scheme (see src/maxent_tfidf.py)</p>
+<p>(3) a ME classifier based on n-grams using naive Bayes (NB) log-count ratios as feature values (see src/maxent_nblcr.py)</p>
+<p>(4) a ME classifier with word embedding features (see src/maxent_we.py)</p>
 
 # How to run #
 
