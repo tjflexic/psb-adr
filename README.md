@@ -1,9 +1,9 @@
 # psb-adr
 Binary classification of adverse drug reactions (PSB 2016 social media mining shared task)
 
-This is the source code of my submission for the PSB 2016 social media mining shared task on binary classification of adverse drug reactions (ADRs) (http://psb.stanford.edu/workshop/wkshp-smm). The system is ranked 2nd among all 20 participating among all 20 participants with ADR F-score of 41.82%.
+This is the source code of my submission for the PSB 2016 social media mining shared task on binary classification of adverse drug reactions (ADRs) (http://psb.stanford.edu/workshop/wkshp-smm). The system is **ranked 2nd** among all 20 participating among all 20 participants with ADR F-score of 41.82%.
 
-The system is a weighted average ensemble of four classifiers: 
+The system is a *weighted average ensemble* of four classifiers: 
 
 <p>(1) a concept-matching classifier based on ADR lexicon (see src/concept_matching.py)</p>
 <p>(2) a maximum entropy (ME) classifier with n-gram features and TFIDF weighting scheme (see src/maxent_tfidf.py)</p>
